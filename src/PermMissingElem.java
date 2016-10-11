@@ -1,10 +1,10 @@
 
 public class PermMissingElem {
+	/*
+	 *  Task Description
+	 *  https://codility.com/programmers/task/perm_missing_elem/
+	 */
 	public int solution(int[] A) {
-		/*
-		 *  Task Description
-		 *  https://codility.com/programmers/task/perm_missing_elem/
-		 */
 		long N = A.length;
 		long sum = (N+1)*(N+2)/2;
 		for(int elem : A) {
