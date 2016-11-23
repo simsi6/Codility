@@ -12,7 +12,8 @@ public class Codility {
 		//System.out.println(new PermCheck().solution(new int[]{1000000000, 1}));
 		//System.out.println(new MissingInteger().solution(new int[]{1,3,6,4,1,2}));
 		//System.out.println(new FrogRiverOne().solution(5, new int[]{1,3,1,4,2,3,5,4}));
-		System.out.println(arrayToString(new MaxCounters().solution(5, new int[]{3,4,4,6,1,4,4})));
+		//System.out.println(arrayToString(new MaxCounters().solution(5, new int[]{3,4,4,6,1,4,4})));
+		System.out.println(new PassingCars().solution(new int[]{0,1,0,1,1}));
 	}
 	
 	private static String arrayToString(int[] arr) {
